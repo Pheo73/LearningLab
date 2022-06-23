@@ -66,20 +66,31 @@ Vous pouvez retouver le fichier .sql de la base de données dans le dossier **da
 Rendez vous dans votre [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) de votre XAMPP ou WAMP et importer le fichier .sql
 
 Enfin modifier votre fichier .env :
+
 DB_DATABASE=LearninglabBDD
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 Pour le serveur SMTP vous pourrez vous addresser à M.Carron pour les id/mdp du compte
 
 Enfin modifier le fichier .env pour le relier au serveur:
+
 MAIL_MAILER=smtp
+
 MAIL_HOST=smtp.mailtrap.io
+
 MAIL_PORT=2525
+
 MAIL_USERNAME=e9810508ec0415
+
 MAIL_PASSWORD=53ebd725989f94
+
 MAIL_ENCRYPTION=tls
+
 MAIL_FROM_ADDRESS="learninglab73@gmail.com"
+
 MAIL_FROM_NAME="${APP_NAME}"
 
 ## Partie 4 - Démarrer votre serveur web
