@@ -22,7 +22,7 @@ Installez Composer.
 
 Composer version 2.3.5 : [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
-Vous pouvez ensuite installer Laravel pour simplifier de nombreuses commandes :
+Vous pouvez ensuite installer Laravel pour simplifier de nombreuses commandes : Ce n'est pas nécessaire, mais peut vous aider plus tard
 
 Version de Laravel installer : 4.2.10
 
@@ -34,7 +34,7 @@ Rendez-vous dans votre dossier **htdocs** de votre XAMPP ou WAMP.
 
 Chemin (exemple) : **C:\xampp\htdocs**
 
-Faites la commande suivant en ouvrant un terminal **GIT** :
+Faites la commande suivant en ouvrant un terminal :
 
 `git clone https://github.com/Pheo73/LearningLab.git`
 
