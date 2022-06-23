@@ -6,7 +6,7 @@ Vous trouverez dans ce repository tous les fichiers nécessaires à l'initialisa
 
 Merci aux personnes qui reprennent ce projet !
 
-Pham Théo - ancien étudiant MMI - 2022
+Pham Théo - Ancien étudiant MMI - 2022
 
 # Installation
 
@@ -23,6 +23,7 @@ Installez Composer.
 Composer veresion 2.3.5 : [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
 Ensuite ouvrez Composer et entrer la commande suivante pour installer Laravel :
+
 `composer global require laravel/installer`
 
 ## Partie 1 - Clôner le git
