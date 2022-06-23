@@ -34,7 +34,7 @@ Rendez-vous dans votre dossier **htdocs** de votre XAMPP ou WAMP.
 
 Chemin (exemple) : **C:\xampp\htdocs**
 
-Faites la commande suivant en ouvrant un terminal :
+Faites la commande suivante en ouvrant un terminal :
 
 `git clone https://github.com/Pheo73/LearningLab.git`
 
