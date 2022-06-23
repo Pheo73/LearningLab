@@ -54,6 +54,8 @@ Dans le **terminal** entrez les commandes :
 
 `php artisan key:generate`
 
+`php artisan migrate`
+
 Si vous rencontrez des **erreurs** essayez ces commandes :
 
 `php artisan cache:clear`
@@ -61,6 +63,8 @@ Si vous rencontrez des **erreurs** essayez ces commandes :
 `php artisan view:clear`
 
 `php artisan config:clear`
+
+`composer dump-autoload`
 
 ## Partie 3 - Modifier le .env pour lier la BDD et le serveur SMTP
 
@@ -99,6 +103,10 @@ MAIL_FROM_NAME="${APP_NAME}"
 ## Partie 4 - Démarrer votre serveur web
 
 Ouvrez le logiciel XAMPP ou WAMP, et appuyer sur **start** pour le module **Apache** et **MySQL**.
+
+Dans le **terminal** entrez la commande :
+
+`php artisan serve`
 
 Ouvrez ensuite votre navigateur internet et rendez-vous dans l'URL suivant.
 
