@@ -1,0 +1,27 @@
+.mentionspage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: toRem(241) toRem(223) toRem(15) toRem(146);
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    margin: toRem(24) 0;
+  }
+
+  p {
+    color: $black;
+  }
+
+}
+
+/* responsive */
+@media screen and (max-width: 800px) {
+  .mentionspage {
+    padding: toRem(241) toRem(24) toRem(15);
+
+  }
+}

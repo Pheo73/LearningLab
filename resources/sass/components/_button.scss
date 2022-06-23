@@ -1,0 +1,35 @@
+.btn-white {
+  width: toRem(145);
+  height: toRem(40);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-green {
+  width: toRem(146);
+  height: toRem(49);
+  border: none;
+  background: #4DB75D;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.btn-border-white {
+  width: toRem(163);
+  height: toRem(49);
+  border: 1px solid $white;
+  border-radius: 16px;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-blue {
+  width: toRem(146);
+  height: toRem(49);
+  border: none;
+  background: $blue;
+  border-radius: 16px;
+  cursor: pointer;
+}

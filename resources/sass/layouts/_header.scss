@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 187px;
+  z-index: 1;
+  padding: toRem(44) 0 toRem(7) toRem(112);
+
+  .logo {
+    position: absolute;
+    left: 104px;
+    top: 60px;
+  }
+  .logo img {
+    width: 176px;
+    height: 136px;
+  }
+
+
+  .header__button {
+    z-index: 101;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $white;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 104px;
+    top: 60px;
+    outline: none;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+  }
+
+  .header__button[data-open="true"] {
+    background-color: $black;
+    animation-name: scale;
+  }
+
+  .header__button[data-open="false"] {
+    transition: background-color 250ms linear;
+  }
+
+  @keyframes scale {
+    from {
+      transform: scale(0);
+    }
+
+    to {
+      transform: scale(100%);
+    }
+  }
+
+  .header__nav {
+    background-color: $white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    visibility: hidden;
+    clip-path: circle(var(--radius) at calc(100% - 55px) 47px);
+  }
+
+  .header__nav[data-active="true"] {
+    visibility: visible;
+  }
+
+  .header__menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header__menu > .header__menu-item {
+    font-size: clamp(1.5rem, 1.0417rem + 2.0370vw, 4rem);
+    letter-spacing: 1px;
+    line-height: 55px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .header__menu-item a:hover {
+    color: $black;
+  }
+
+  .header__menu > .header__menu-item:not(:last-of-type) {
+    margin-bottom: 0em;
+  }
+
+  .header__menu-item a {
+    font-size: clamp(1.5rem, 1.0417rem + 2.0370vw, 4rem);
+    letter-spacing: 1px;
+    line-height: 55px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    color: $grey;
+    transition: all .2s ease-in-out;
+
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  header {
+    padding: 0;
+    .logo {
+      left: 24px;
+    }
+    .header__button {
+      right: 24px;
+      top: 80px;
+    }
+    .logo img {
+      width: 114px;
+      height: 88px;
+
+    }
+  }
+}

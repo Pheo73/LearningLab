@@ -1,0 +1,67 @@
+.container-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: toRem(64);
+
+  h2 {
+    color: $white;
+    margin-bottom: toRem(90);
+  }
+
+
+  #main {
+    width: 100%;
+    min-height: toRem(773);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn-container {
+      margin-top: toRem(300);
+      z-index: 2;
+      display: flex;
+      align-items: center;
+
+      #next, #prev {
+        display: block;
+        cursor: pointer;
+        margin: 0 toRem(64);
+        color: $white;
+
+      }
+    }
+
+    #slider {
+      position: relative;
+      width: 5%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px toRem(120);
+
+
+      .front {
+        transform: translateX(0rem) scale(1.3);
+        z-index: 2;
+      }
+
+      .left {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), $white;
+        transform: translateX(-20rem);
+        z-index: 1;
+      }
+
+      .right {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), $white;
+        transform: translateX(20rem);
+        z-index: 1;
+      }
+    }
+  }
+}

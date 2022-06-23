@@ -1,0 +1,42 @@
+.banner-project {
+  min-height: 600px;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url("/images/template-project-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  input {
+    width: 300px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    margin-top: toRem(140);
+  }
+}
+
+.template-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .project-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+
+
+    .single-project {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

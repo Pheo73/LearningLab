@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  min-height: 922px;
+  position: relative;
+
+  .sec-1 {
+    width: 100%;
+    min-height: 922px;
+    display: flex;
+    justify-content: center;
+    padding: toRem(237) toRem(24) 0;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+
+    .left {
+      margin-right: toRem(104);
+
+      img {
+        width: clamp(17.25rem, 12.8333rem + 19.6296vw, 30.5rem);
+      }
+    }
+
+    .right {
+      .content {
+        max-width: 416px;
+
+        h2, p {
+          margin-bottom: toRem(24);
+          margin-top: toRem(24);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    .sec-1 {
+
+      .left {
+        margin: 0;
+      }
+
+      .right {
+        margin-top: -30px;
+        text-align: center;
+      }
+    }
+  }
+}

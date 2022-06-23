@@ -1,0 +1,56 @@
+footer {
+  .row-1 {
+    padding-top: toRem(90);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: toRem(44);
+  }
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: toRem(90) 5rem;
+
+    .footer-logo {
+      margin-right: toRem(44);
+    }
+
+    .coordonnées {
+      display: flex;
+      flex-direction: column;
+      margin-right: toRem(24);
+
+      p {
+        font-size: 0.85rem;
+
+      }
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-size: 0.85rem;
+        color: $black;
+
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 476px) {
+footer {
+  .content {
+    padding: toRem(24);
+  }
+}
+}

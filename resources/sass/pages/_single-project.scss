@@ -1,0 +1,35 @@
+.page-single-project {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .main {
+    padding: toRem(50) toRem(136) toRem(96) toRem(112);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .page-single-project {
+    .main {
+      padding: toRem(50) toRem(90) toRem(96) toRem(90);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-single-project {
+    .main {
+      padding: toRem(50) toRem(60) toRem(96) toRem(60);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-single-project {
+    .main {
+      padding: toRem(50) toRem(40) toRem(96) toRem(40);
+    }
+  }
+}
+
+
