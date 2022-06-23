@@ -1,4 +1,4 @@
-# Projet Laravel - Stage DUT MMI Chambéry 
+# Projet Laravel - Stage DUT MMI Chambéry
 
 Lors de mon stage de fin de d'étude, j'ai pu travailler sur le site web du LearningLab et l'adapter sous le Framework Laravel.
 
@@ -39,20 +39,24 @@ Faites la commande suivant en ouvrant un terminal **GIT** :
 
 Ouvrez le projet avec un éditeur de code telles que **Visual Studio Code** par exemple.
 
-Rendez vous dans votre répertoire grâce à votre **invite de commande** : cd C:\xampp\htdocs\Learninglab 
+Rendez vous dans votre répertoire grâce à votre **invite de commande** : cd C:\xampp\htdocs\Learninglab
 
-Dans le **terminal** entrez les commandes : 
-`composer install` 
------------------
-`npm install` 
------------------
+Dans le **terminal** entrez les commandes :
+
+`composer install`
+
+`npm install`
+
 `cp .env.example .env`
------------------
+
 `php artisan key:generate`
 
 Si vous rencontrez des **erreurs** essayez ces commandes :
+
 `php artisan cache:clear`
+
 `php artisan view:clear`
+
 `php artisan config:clear`
 
 ## Partie 3 - Modifier le .env pour lier la BDD et le serveur SMTP
