@@ -34,7 +34,7 @@ Rendez-vous dans votre dossier **htdocs** de votre XAMPP ou WAMP.
 
 Chemin (exemple) : **C:\xampp\htdocs**
 
-Faites la commande suivante en ouvrant un terminal :
+Faites la commande suivant en ouvrant un terminal :
 
 `git clone https://github.com/Pheo73/LearningLab.git`
 
@@ -70,7 +70,7 @@ Si vous rencontrez des **erreurs** essayez ces commandes :
 
 Vous pouvez retrouver le fichier .sql de la base de données dans le dossier **database**
 
-Rendez-vous dans votre [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) de votre XAMPP ou WAMP et importer le fichier .sql
+Rendez-vous dans votre [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) de votre XAMPP ou WAMP et importer le fichier .sql après avoir créé la base de donnée **learnninglabbdd**
 
 Enfin, modifier votre fichier .env :
 
