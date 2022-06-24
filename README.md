@@ -90,9 +90,9 @@ MAIL_HOST=smtp.mailtrap.io
 
 MAIL_PORT=2525
 
-MAIL_USERNAME=e9810508ec0415
+MAIL_USERNAME= à récupérer via Thibault ou sur le compte Mailtrap
 
-MAIL_PASSWORD=53ebd725989f94
+MAIL_PASSWORD= à récupérer via Thibault ou sur le compte Mailtrap
 
 MAIL_ENCRYPTION=tls
 
